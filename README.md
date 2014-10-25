@@ -3,9 +3,9 @@ My Personal Website Project
 
 #Context
 
-A couple of years ago, I had a personal website powered by [Wordpress](http://wordpress.org) and it used to work really well, even know it always was more than I needed. 
+A couple of years ago, I had a personal website powered by <a href="http://wordpress.org" target="_blank">Wordpress</a> and it used to work really well, even know it always was more than I needed. 
 
-However, since I got to know about [Jekyll](http://jekyllrb.com/), I realized that it would be the perfect solution for me, once it's simple, fast and its template engine [Liquid](https://github.com/Shopify/liquid/wiki) has got minimalism as part of its essence and I personally love it. 
+However, since I got to know about <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, I realized that it would be the perfect solution for me, once it's simple, fast and its template engine <a href="https://github.com/Shopify/liquid/wiki" target="_blank">Liquid</a> has got minimalism as part of its essence and I personally love it. 
 
 #Customization 
 
