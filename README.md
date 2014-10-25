@@ -16,6 +16,6 @@ I've substantially tweaked the base theme that ships with _Jekyll_ , and my inte
 Once it's done, I'm planning on reactivating my domain and start sharing content about stuff I work on in college as well as eventual projects I'll be doing for fun. The goal is to share good content on the web and contribute to the community of Computer Engineering students and professionals all over the globe, reason why I am gonna be writing in English. 
 
 #The Link
-If you want to access it to check out how it looks like, while I keep updating the layout, go to: <a href="http://jekyllrb.com" target="_blank">http://tolribeiro.github.io/mywebsite</a>
+If you want to access it to check out how it looks like, while I keep updating the layout, go to: <a href="http://tolribeiro.github.io/mywebsite" target="_blank">http://tolribeiro.github.io/mywebsite</a>
 
 This is going to be a lot of fun, so let's do it!! :)
