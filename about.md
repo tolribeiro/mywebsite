@@ -4,8 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Hi I'm Thiago and sharing good content on the web is one of my passions. I study Computer Engineering at <b>University of Pernambuco</b> (<a href="http://www.poli.br" target="_blank">UPE</a>) and play in a rock band called Nerval <a href="http://www.soundcloud.com/nervaloficial" target="_blank">Nerval</a>.
