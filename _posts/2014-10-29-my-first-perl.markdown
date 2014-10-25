@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!!!"
-description: "Get to know about markdown and power of Jekyll."
+title:  "My first Perl script"
+description: "Some tips about how to set up your Perl environment."
 date:   2014-10-22 21:53:05
 categories: jekyll update
 ---
