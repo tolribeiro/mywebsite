@@ -12,8 +12,8 @@
 
 .site-title {
     font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
+    line-height: 43px;
+    letter-spacing: -0.5px;
     margin-bottom: 0;
     float: left;
 
@@ -22,7 +22,29 @@
         color: $grey-color-dark;
     }
 }
+/*.site-micon {
+    position:absolute;
+    font-size: 26px;
+    line-height: 43px;
+    letter-spacing: px;
+    margin-bottom: 0;
+    float: left;
+    padding-top:20px;
+    left:50px;
+} */
 
+.site-micon {
+    position: absolute;
+    top: 37px;    
+    letter-spacing: 2px;
+    a {
+        /*color: rgba(59, 89, 152, 0.87);*/
+        color: #1756a9;
+    }
+    a:hover {
+        color: rgba(52, 78, 134, 1);
+    }
+}
 .site-nav {
     float: right;
     line-height: 56px;

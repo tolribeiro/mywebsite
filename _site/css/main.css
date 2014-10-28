@@ -153,12 +153,32 @@ pre {
 
 .site-title {
   font-size: 26px;
-  line-height: 56px;
-  letter-spacing: -1px;
+  line-height: 43px;
+  letter-spacing: -0.5px;
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
     color: #424242; }
+
+/*.site-micon {
+    position:absolute;
+    font-size: 26px;
+    line-height: 43px;
+    letter-spacing: px;
+    margin-bottom: 0;
+    float: left;
+    padding-top:20px;
+    left:50px;
+} */
+.site-micon {
+  position: absolute;
+  top: 37px;
+  letter-spacing: 2px; }
+  .site-micon a {
+    /*color: rgba(59, 89, 152, 0.87);*/
+    color: #1756a9; }
+  .site-micon a:hover {
+    color: #344e86; }
 
 .site-nav {
   float: right;
