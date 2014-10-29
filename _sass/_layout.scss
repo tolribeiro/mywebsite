@@ -22,16 +22,6 @@
         color: $grey-color-dark;
     }
 }
-/*.site-micon {
-    position:absolute;
-    font-size: 26px;
-    line-height: 43px;
-    letter-spacing: px;
-    margin-bottom: 0;
-    float: left;
-    padding-top:20px;
-    left:50px;
-} */
 
 .site-micon {
     position: absolute;
@@ -112,13 +102,17 @@
  * Site footer
  */
 .site-footer {
-    /*border-top: 1px solid $grey-color-light;*/
+    /*border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     padding-left: 209px;
     padding-right: 200px;
     padding-top: 14px;
     color: #A3A3A3;
-    font-size: 15px;
+    font-size: 15px;*/
+    color: #A3A3A3;
+    text-align:center;
+    font-size:13px;
+    /*margin-left: $spacing-unit;*/
 }
 
 .footer-heading {

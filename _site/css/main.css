@@ -160,16 +160,6 @@ pre {
   .site-title, .site-title:visited {
     color: #424242; }
 
-/*.site-micon {
-    position:absolute;
-    font-size: 26px;
-    line-height: 43px;
-    letter-spacing: px;
-    margin-bottom: 0;
-    float: left;
-    padding-top:20px;
-    left:50px;
-} */
 .site-micon {
   position: absolute;
   top: 37px;
