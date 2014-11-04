@@ -5,5 +5,5 @@ description: "Using Matlab to learn about digital modulation"
 date:   2014-10-30 21:53:05
 categories: jekyll update
 ---
-One of the things I have learned this semester is...
+This semester I had some exposure to digital modulation and learned some really cool techniques applied to the studies of Communications Systems.
 
