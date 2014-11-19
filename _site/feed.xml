@@ -6,9 +6,41 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 18 Nov 2014 23:39:12 -0300</pubDate>
-    <lastBuildDate>Tue, 18 Nov 2014 23:39:12 -0300</lastBuildDate>
+    <pubDate>Tue, 18 Nov 2014 23:43:26 -0300</pubDate>
+    <lastBuildDate>Tue, 18 Nov 2014 23:43:26 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Testing the color of links 2</title>
+        <description>&lt;p&gt;Test 1&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 19 Nov 2014 18:53:05 -0300</pubDate>
+        <link>http://tolribeiro.github.io/mywebsite/jekyll/update/2014/11/19/just-testing2.html</link>
+        <guid isPermaLink="true">http://tolribeiro.github.io/mywebsite/jekyll/update/2014/11/19/just-testing2.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Testing the color of links 1</title>
+        <description>&lt;p&gt;Test 1&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 19 Nov 2014 18:53:05 -0300</pubDate>
+        <link>http://tolribeiro.github.io/mywebsite/jekyll/update/2014/11/19/just-testing.html</link>
+        <guid isPermaLink="true">http://tolribeiro.github.io/mywebsite/jekyll/update/2014/11/19/just-testing.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>BPSK modulation using PSK on Matlab</title>
