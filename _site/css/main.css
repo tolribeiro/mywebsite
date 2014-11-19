@@ -1,3 +1,4 @@
+/*#fdfdfd*/
 /**
  * Reset some basic elements
  */
@@ -16,7 +17,8 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: #111;
-  background-color: #fdfdfd;
+  margin-right: 147px;
+  background-color: #fff;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -64,12 +66,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  /*color: $brand-color;*/
+  color: #1756a9;
   text-decoration: none; }
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
+    /*color: $text-color;*/
     text-decoration: underline; }
 
 /**
@@ -146,7 +149,8 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 70px solid #fdfdfd;
+  border-top: 70px solid #fff;
+  /*#fdfdfd;*/
   /*border-bottom: 1px solid $grey-color-light;*/
   min-height: 56px;
   position: relative; }
@@ -185,7 +189,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #fdfdfd;
+      background-color: #fff;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -224,7 +228,7 @@ pre {
   color: #A3A3A3;
   font-size: 15px;*/
   color: #A3A3A3;
-  text-align: center;
+  text-align: left;
   font-size: 13px;
   /*margin-left: $spacing-unit;*/ }
 
