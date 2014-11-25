@@ -7,5 +7,5 @@ categories: jekyll update
 ---
 This semester I had some exposure to digital modulation and learned some really cool techniques applied to the studies of Communications Systems. 
 
-One of them is called Phase-Shift Keying.
+One of them is 
 
