@@ -6,8 +6,8 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Nov 2014 10:12:23 -0300</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2014 10:12:23 -0300</lastBuildDate>
+    <pubDate>Wed, 26 Nov 2014 10:17:50 -0300</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2014 10:17:50 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -61,7 +61,7 @@
 &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Message Signal m(t)&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;grid&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/downloads/message.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/website/downloads/message.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Oct 2014 18:53:05 -0300</pubDate>
         <link>http://tolribeiro.github.io/mywebsite/jekyll/update/2014/10/30/bpsk-matlab.html</link>
