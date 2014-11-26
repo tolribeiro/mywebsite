@@ -6,8 +6,8 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Nov 2014 17:22:09 -0300</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2014 17:22:09 -0300</lastBuildDate>
+    <pubDate>Wed, 26 Nov 2014 17:26:11 -0300</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2014 17:26:11 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -31,7 +31,7 @@
 &lt;p&gt;After running this, you should see this image, which represents the message we wanna send: &lt;/p&gt;
 
 &lt;div style=&quot;text-align:center&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/message.jpg&quot; alt=&quot;Message Signal&quot; title=&quot;Message Signal m(t)&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/message.png&quot; alt=&quot;Message Signal&quot; title=&quot;Message Signal m(t)&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now we can write the definition for the carrier &lt;em&gt;x(t)&lt;/em&gt;, a &lt;em&gt;sin()&lt;/em&gt; function with frequency of &lt;em&gt;10 Hz&lt;/em&gt; and amplitude &lt;em&gt;A&lt;/em&gt; of &lt;em&gt;5&lt;/em&gt;.&lt;/p&gt;
@@ -65,7 +65,7 @@
 &lt;p&gt;Which we can see as:&lt;/p&gt;
 
 &lt;div style=&quot;text-align:center&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/modulated.jpg&quot; alt=&quot;Modulated Signal&quot; title=&quot;PSK Modulated Signal u(t)&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/modulated.png&quot; alt=&quot;Modulated Signal&quot; title=&quot;PSK Modulated Signal u(t)&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;It is important to note that the phase of the signal does not change while &lt;em&gt;m(t)&lt;/em&gt; is equal to &lt;em&gt;1&lt;/em&gt;, being reversed (changing by 180 degrees) when it goes to &lt;em&gt;0&lt;/em&gt;.&lt;/p&gt;

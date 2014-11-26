@@ -26,7 +26,7 @@ grid on;
 After running this, you should see this image, which represents the message we wanna send: 
 
 <div style="text-align:center" markdown="1">
-![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/message.jpg "Message Signal m(t)")
+![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/message.png "Message Signal m(t)")
 </div>
 
 Now we can write the definition for the carrier *x(t)*, a *sin()* function with frequency of *10 Hz* and amplitude *A* of *5*.
@@ -64,7 +64,7 @@ grid on;
 Which we can see as:
 
 <div style="text-align:center" markdown="1">
-![Modulated Signal](http://tolribeiro.github.io/mywebsite/downloads/modulated.jpg "PSK Modulated Signal u(t)")
+![Modulated Signal](http://tolribeiro.github.io/mywebsite/downloads/modulated.png "PSK Modulated Signal u(t)")
 </div>
 
 It is important to note that the phase of the signal does not change while *m(t)* is equal to *1*, being reversed (changing by 180 degrees) when it goes to *0*.
