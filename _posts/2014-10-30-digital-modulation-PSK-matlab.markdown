@@ -51,10 +51,6 @@ Now we can see the carrier *x(t)* we're gonna use to modulate our message *m(t)*
 
 Finally, we can plot the modulated (in phase) signal *u(t)* by just multiplying *m(t)* by *x(t)*. We're gonna call *u(t)* the modulated signal.
 
-<div style="text-align:center" markdown="1">
-![Modulated Signal](http://tolribeiro.github.io/mywebsite/downloads/modulated.jpg "PSK Modulated Signal u(t)")
-</div>
-
 {% highlight matlab %}
 v = x.*u;                     % Carrier multiplied by message
 subplot(3,1,3);
@@ -64,5 +60,11 @@ ylabel('Amplitude');
 title('PSK Modulated Signal u(t)');
 grid on;
 {% endhighlight%}
+
+Which we can see as:
+
+<div style="text-align:center" markdown="1">
+![Modulated Signal](http://tolribeiro.github.io/mywebsite/downloads/modulated.jpg "PSK Modulated Signal u(t)")
+</div>
 
 It is important to note that the phase of the signal does not change while *m(t)* is equal to *1*, being reversed (changing by 180 degrees) when it goes to *0*.

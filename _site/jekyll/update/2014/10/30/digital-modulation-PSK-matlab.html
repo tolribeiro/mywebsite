@@ -116,10 +116,6 @@
 
 <p>Finally, we can plot the modulated (in phase) signal <em>u(t)</em> by just multiplying <em>m(t)</em> by <em>x(t)</em>. We’re gonna call <em>u(t)</em> the modulated signal.</p>
 
-<div style="text-align:center">
-  <p><img src="http://tolribeiro.github.io/mywebsite/downloads/modulated.jpg" alt="Modulated Signal" title="PSK Modulated Signal u(t)" /></p>
-</div>
-
 <div class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">v</span> <span class="p">=</span> <span class="n">x</span><span class="o">.*</span><span class="n">u</span><span class="p">;</span>                     <span class="c">% Carrier multiplied by message</span>
 <span class="n">subplot</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">);</span>
 <span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="n">v</span><span class="p">);</span>                    <span class="c">% Plotting u(t), modulated signal</span>
@@ -127,6 +123,12 @@
 <span class="n">ylabel</span><span class="p">(</span><span class="s">&#39;Amplitude&#39;</span><span class="p">);</span>
 <span class="n">title</span><span class="p">(</span><span class="s">&#39;PSK Modulated Signal u(t)&#39;</span><span class="p">);</span>
 <span class="n">grid</span> <span class="n">on</span><span class="p">;</span></code></pre></div>
+
+<p>Which we can see as:</p>
+
+<div style="text-align:center">
+  <p><img src="http://tolribeiro.github.io/mywebsite/downloads/modulated.jpg" alt="Modulated Signal" title="PSK Modulated Signal u(t)" /></p>
+</div>
 
 <p>It is important to note that the phase of the signal does not change while <em>m(t)</em> is equal to <em>1</em>, being reversed (changing by 180 degrees) when it goes to <em>0</em>.</p>
 
