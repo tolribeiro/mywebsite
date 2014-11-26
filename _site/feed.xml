@@ -6,8 +6,8 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Nov 2014 12:36:43 -0300</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2014 12:36:43 -0300</lastBuildDate>
+    <pubDate>Wed, 26 Nov 2014 12:52:27 -0300</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2014 12:52:27 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -85,10 +85,25 @@
   &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/carrier.jpg&quot; alt=&quot;Carrier Signal&quot; title=&quot;Carrier x(t)&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
+&lt;p&gt;Finally, we can plot the modulated (in phase) signal &lt;em&gt;u(t)&lt;/em&gt; by just multiplying &lt;em&gt;m(t)&lt;/em&gt; by &lt;em&gt;x(t)&lt;/em&gt;. We’re gonna call &lt;em&gt;u(t)&lt;/em&gt; the modulated signal.&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/modulated.jpg&quot; alt=&quot;Modulated Signal&quot; title=&quot;PSK Modulated Signal u(t)&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;                     &lt;span class=&quot;c&quot;&gt;% Carrier multiplied by message&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;subplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;                    &lt;span class=&quot;c&quot;&gt;% Plotting u(t), modulated signal&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;xlabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Time&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ylabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Amplitude&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;PSK Modulated Signal u(t)&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;grid&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;It is important to note that the phase of the signal does not change while &lt;em&gt;m(t)&lt;/em&gt; is equal to &lt;em&gt;1&lt;/em&gt;, being reversed (changing by 180 degrees) when it goes to &lt;em&gt;0&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Oct 2014 18:53:05 -0300</pubDate>
-        <link>http://tolribeiro.github.io/mywebsite/jekyll/update/2014/10/30/bpsk-matlab.html</link>
-        <guid isPermaLink="true">http://tolribeiro.github.io/mywebsite/jekyll/update/2014/10/30/bpsk-matlab.html</guid>
+        <link>http://tolribeiro.github.io/mywebsite/jekyll/update/2014/10/30/digital-modulation-PSK-matlab.html</link>
+        <guid isPermaLink="true">http://tolribeiro.github.io/mywebsite/jekyll/update/2014/10/30/digital-modulation-PSK-matlab.html</guid>
         
         
         <category>jekyll</category>
