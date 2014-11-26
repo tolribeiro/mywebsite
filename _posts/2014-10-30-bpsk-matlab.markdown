@@ -40,14 +40,14 @@ subplot(3,1,1);
 plot(t, x);                   % plotting x(t)
 xlabel('Time');
 ylabel('Amplitude');
-title('Carrier');
+title('Carrier x(t)');
 grid on;
 {% endhighlight%}
 
 Now we can see the carrier *x(t)* we're gonna use to modulate our message *m(t)*:
 
 <div style="text-align:center" markdown="1">
-![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/carrier.jpg "Message Signal m(t)")
+![Carrier Signal](http://tolribeiro.github.io/mywebsite/downloads/carrier.jpg "Carrier x(t)")
 </div>
 
 
