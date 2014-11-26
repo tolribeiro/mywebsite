@@ -23,4 +23,4 @@ ylabel('Amplitude');
 title('Message Signal m(t)');
 grid on;
 {% endhighlight %}
-![My helpful screenshot](http://tolribeiro.github.io/website/downloads/message.jpg)
+![My helpful screenshot](http://tolribeiro.github.io/mywebsite/downloads/message.jpg)
