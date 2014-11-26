@@ -80,8 +80,7 @@
 
 <p>First, let’s suppose we have a message <em>m(t)</em>, which is a bit-stream signal, that we want to send through an analog channel. For this example, we consider the frequency of <em>m(t)</em> as <em>2 Hz</em>. Therefore, we have:</p>
 
-<div class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="c">% m(t) definition</span>
-<span class="n">f2</span> <span class="p">=</span> <span class="mi">2</span><span class="p">;</span>                       	<span class="c">% m(t) frequency</span>
+<div class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">f2</span> <span class="p">=</span> <span class="mi">2</span><span class="p">;</span>                       	<span class="c">% m(t) frequency</span>
 <span class="n">t</span> <span class="p">=</span> <span class="mi">0</span><span class="p">:.</span><span class="mi">001</span><span class="p">:</span><span class="mi">1</span><span class="p">;</span>			<span class="c">% time definition</span>
 <span class="n">m</span> <span class="p">=</span> <span class="n">square</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="nb">pi</span><span class="o">*</span><span class="n">f2</span><span class="o">*</span><span class="n">t</span><span class="p">);</span>          <span class="c">% message </span>
 <span class="n">subplot</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>

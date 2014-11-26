@@ -12,7 +12,6 @@ For this tutorial, I'll pick up the **PSK** (Phase-Shift Keying). However, if yo
 First, let's suppose we have a message *m(t)*, which is a bit-stream signal, that we want to send through an analog channel. For this example, we consider the frequency of *m(t)* as *2 Hz*. Therefore, we have:
 
 {% highlight matlab %}
-% m(t) definition
 f2 = 2;                       	% m(t) frequency
 t = 0:.001:1;			% time definition
 m = square(2*pi*f2*t);          % message 
