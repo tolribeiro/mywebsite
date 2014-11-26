@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BPSK modulation: using PSK as example on MATLAB."
+title:  "Digital Modulation: using PSK as example on MATLAB."
 description: "How to use MATLAB to explore and practice digital modulation."
 date:   2014-10-30 21:53:05
 categories: jekyll update
@@ -9,7 +9,7 @@ This semester I had some exposure to digital modulation and learned some techniq
 
 For this tutorial, I'll pick up the **PSK** (Phase-Shift Keying). However, if you want and feel comfortable, you can also try it using *ASK*, *FSK* or *QAM*, that along with PSK, forms the group of main types of digital modulation widely used in a variety of modern systems, such as cellular networks and so on. 
 
-First, let's suppose we have a message *m(t)*, which is a bit-stream signal, that we want to send through an analog channel. For this example, we consider the frequency of *m(t)* as *2Hz*. Therefore, we have:
+First, let's suppose we have a message *m(t)*, which is a bit-stream signal, that we want to send through an analog channel. For this example, we consider the frequency of *m(t)* as *2 Hz*. Therefore, we have:
 
 {% highlight matlab %}
 % m(t) definition
@@ -17,10 +17,37 @@ f2 = 2;                       	% m(t) frequency
 t = 0:.001:1;			% time definition
 m = square(2*pi*f2*t);          % message 
 subplot(3,1,2);
-plot(t,m);                      % plotting m(t)
+plot(t, m);                      % plotting m(t)
 xlabel('Time');
 ylabel('Amplitude');
 title('Message Signal m(t)');
 grid on;
 {% endhighlight %}
-![My helpful screenshot](http://tolribeiro.github.io/mywebsite/downloads/message.jpg)
+
+After running this, you should see this image, which represents the message we wanna send: 
+
+<div style="text-align:center" markdown="1">
+![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/message.jpg "Message Signal m(t)")
+</div>
+
+Now we can write the definition for the carrier *x(t)*, a *sin()* function with frequency of *10 Hz* and amplitude *A* of *5*.
+
+{% highlight matlab %}
+A = 5;                        % amplitude
+f1 = 10;                      % frequency
+x = A.*sin(2*pi*f1*t);        % carrier function
+subplot(3,1,1);
+plot(t, x);                   % plotting x(t)
+xlabel('Time');
+ylabel('Amplitude');
+title('Carrier');
+grid on;
+{% endhighlight%}
+
+Now we can see the carrier *x(t)* we're gonna use to modulate our message *m(t)*:
+
+<div style="text-align:center" markdown="1">
+![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/carrier.jpg "Message Signal m(t)")
+</div>
+
+
