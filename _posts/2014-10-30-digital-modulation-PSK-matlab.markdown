@@ -7,7 +7,7 @@ categories: jekyll update
 ---
 This semester I had some exposure to digital modulation and learned some techniques applied to the studies of Communications Systems, which we'll put into practice by using the powerful software MATLAB.
 
-For this tutorial, I'll pick up the **PSK** (Phase-Shift Keying). However, if you want and feel comfortable, you can also try it using *ASK*, *FSK* or *QAM*, that along with PSK, forms the group of main types of digital modulation widely used in a variety of modern systems, such as cellular networks and so on. 
+For this tutorial, I'll pick up the **PSK** (Phase-Shift Keying). However, if you want and feel comfortable, you can also try it using *ASK*, *FSK* or *QAM*, that along with PSK, form the group of main types of digital modulation widely used in a variety of modern systems, such as cellular networks and so on. 
 
 First, let's suppose we have a message *m(t)*, which is a bit-stream signal, that we want to send through an analog channel. For this example, we consider the frequency of *m(t)* as *2 Hz*. Therefore, we have:
 
@@ -54,7 +54,7 @@ Finally, we can plot the modulated (in phase) signal *u(t)* by just multiplying 
 {% highlight matlab %}
 v = x.*u;                     % Carrier multiplied by message
 subplot(3,1,3);
-plot(t,v);                    % Plotting u(t), modulated signal
+plot(t, v);                    % Plotting u(t), modulated signal
 xlabel('Time');
 ylabel('Amplitude');
 title('PSK Modulated Signal u(t)');
@@ -67,4 +67,4 @@ Which we can see as:
 ![Modulated Signal](http://tolribeiro.github.io/mywebsite/downloads/modulated.png "PSK Modulated Signal u(t)")
 </div>
 
-It is important to note that the phase of the signal does not change while *m(t)* is equal to *1*, being reversed (changing by 180 degrees) when it goes to *0*.
+Finally, we can note that now we have our message modulated in PSK, once the phase of the signal does not change while *m(t)* is equal to *1*, being reversed (changing by 180 degrees) when it goes to *0*.

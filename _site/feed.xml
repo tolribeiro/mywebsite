@@ -6,15 +6,15 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Nov 2014 17:26:11 -0300</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2014 17:26:11 -0300</lastBuildDate>
+    <pubDate>Wed, 26 Nov 2014 17:33:32 -0300</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2014 17:33:32 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Digital Modulation: using PSK as example on MATLAB.</title>
         <description>&lt;p&gt;This semester I had some exposure to digital modulation and learned some techniques applied to the studies of Communications Systems, which we’ll put into practice by using the powerful software MATLAB.&lt;/p&gt;
 
-&lt;p&gt;For this tutorial, I’ll pick up the &lt;strong&gt;PSK&lt;/strong&gt; (Phase-Shift Keying). However, if you want and feel comfortable, you can also try it using &lt;em&gt;ASK&lt;/em&gt;, &lt;em&gt;FSK&lt;/em&gt; or &lt;em&gt;QAM&lt;/em&gt;, that along with PSK, forms the group of main types of digital modulation widely used in a variety of modern systems, such as cellular networks and so on. &lt;/p&gt;
+&lt;p&gt;For this tutorial, I’ll pick up the &lt;strong&gt;PSK&lt;/strong&gt; (Phase-Shift Keying). However, if you want and feel comfortable, you can also try it using &lt;em&gt;ASK&lt;/em&gt;, &lt;em&gt;FSK&lt;/em&gt; or &lt;em&gt;QAM&lt;/em&gt;, that along with PSK, form the group of main types of digital modulation widely used in a variety of modern systems, such as cellular networks and so on. &lt;/p&gt;
 
 &lt;p&gt;First, let’s suppose we have a message &lt;em&gt;m(t)&lt;/em&gt;, which is a bit-stream signal, that we want to send through an analog channel. For this example, we consider the frequency of &lt;em&gt;m(t)&lt;/em&gt; as &lt;em&gt;2 Hz&lt;/em&gt;. Therefore, we have:&lt;/p&gt;
 
@@ -56,7 +56,7 @@
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;                     &lt;span class=&quot;c&quot;&gt;% Carrier multiplied by message&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;subplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;                    &lt;span class=&quot;c&quot;&gt;% Plotting u(t), modulated signal&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;                    &lt;span class=&quot;c&quot;&gt;% Plotting u(t), modulated signal&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;xlabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Time&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;ylabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Amplitude&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;PSK Modulated Signal u(t)&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
@@ -68,7 +68,7 @@
   &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/modulated.png&quot; alt=&quot;Modulated Signal&quot; title=&quot;PSK Modulated Signal u(t)&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;It is important to note that the phase of the signal does not change while &lt;em&gt;m(t)&lt;/em&gt; is equal to &lt;em&gt;1&lt;/em&gt;, being reversed (changing by 180 degrees) when it goes to &lt;em&gt;0&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, we can note that now we have our message modulated in PSK, once the phase of the signal does not change while &lt;em&gt;m(t)&lt;/em&gt; is equal to &lt;em&gt;1&lt;/em&gt;, being reversed (changing by 180 degrees) when it goes to &lt;em&gt;0&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Oct 2014 18:53:05 -0300</pubDate>
         <link>http://tolribeiro.github.io/mywebsite/jekyll/update/2014/10/30/digital-modulation-PSK-matlab.html</link>

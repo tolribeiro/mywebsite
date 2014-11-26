@@ -76,7 +76,7 @@
   <article class="post-content">
     <p>This semester I had some exposure to digital modulation and learned some techniques applied to the studies of Communications Systems, which we’ll put into practice by using the powerful software MATLAB.</p>
 
-<p>For this tutorial, I’ll pick up the <strong>PSK</strong> (Phase-Shift Keying). However, if you want and feel comfortable, you can also try it using <em>ASK</em>, <em>FSK</em> or <em>QAM</em>, that along with PSK, forms the group of main types of digital modulation widely used in a variety of modern systems, such as cellular networks and so on. </p>
+<p>For this tutorial, I’ll pick up the <strong>PSK</strong> (Phase-Shift Keying). However, if you want and feel comfortable, you can also try it using <em>ASK</em>, <em>FSK</em> or <em>QAM</em>, that along with PSK, form the group of main types of digital modulation widely used in a variety of modern systems, such as cellular networks and so on. </p>
 
 <p>First, let’s suppose we have a message <em>m(t)</em>, which is a bit-stream signal, that we want to send through an analog channel. For this example, we consider the frequency of <em>m(t)</em> as <em>2 Hz</em>. Therefore, we have:</p>
 
@@ -118,7 +118,7 @@
 
 <div class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">v</span> <span class="p">=</span> <span class="n">x</span><span class="o">.*</span><span class="n">u</span><span class="p">;</span>                     <span class="c">% Carrier multiplied by message</span>
 <span class="n">subplot</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">);</span>
-<span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="n">v</span><span class="p">);</span>                    <span class="c">% Plotting u(t), modulated signal</span>
+<span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">v</span><span class="p">);</span>                    <span class="c">% Plotting u(t), modulated signal</span>
 <span class="n">xlabel</span><span class="p">(</span><span class="s">&#39;Time&#39;</span><span class="p">);</span>
 <span class="n">ylabel</span><span class="p">(</span><span class="s">&#39;Amplitude&#39;</span><span class="p">);</span>
 <span class="n">title</span><span class="p">(</span><span class="s">&#39;PSK Modulated Signal u(t)&#39;</span><span class="p">);</span>
@@ -130,7 +130,7 @@
   <p><img src="http://tolribeiro.github.io/mywebsite/downloads/modulated.png" alt="Modulated Signal" title="PSK Modulated Signal u(t)" /></p>
 </div>
 
-<p>It is important to note that the phase of the signal does not change while <em>m(t)</em> is equal to <em>1</em>, being reversed (changing by 180 degrees) when it goes to <em>0</em>.</p>
+<p>Finally, we can note that now we have our message modulated in PSK, once the phase of the signal does not change while <em>m(t)</em> is equal to <em>1</em>, being reversed (changing by 180 degrees) when it goes to <em>0</em>.</p>
 
   </article>
 
