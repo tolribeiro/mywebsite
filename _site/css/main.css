@@ -17,7 +17,8 @@ body {
   font-weight: 300;
   color: #111;
   margin-right: 147px;
-  background-color: #fdfdfd;
+  /*background-color: $background-color;*/
+  background-color: #fff;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -148,7 +149,8 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 70px solid #fdfdfd;
+  /*border-top: 70px solid #fdfdfd;*/
+  border-top: 70px solid #fff;
   /*border-bottom: 1px solid $grey-color-light;*/
   min-height: 56px;
   position: relative; }
