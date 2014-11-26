@@ -6,8 +6,8 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Nov 2014 17:20:26 -0300</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2014 17:20:26 -0300</lastBuildDate>
+    <pubDate>Wed, 26 Nov 2014 17:22:09 -0300</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2014 17:22:09 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -49,7 +49,7 @@
 &lt;p&gt;Now we can see the carrier &lt;em&gt;x(t)&lt;/em&gt; we’re gonna use to modulate our message &lt;em&gt;m(t)&lt;/em&gt;:&lt;/p&gt;
 
 &lt;div style=&quot;text-align:center&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/carrier.jpg&quot; alt=&quot;Carrier Signal&quot; title=&quot;Carrier x(t)&quot; /&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/carrier.png&quot; alt=&quot;Carrier Signal&quot; title=&quot;Carrier x(t)&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Finally, we can plot the modulated (in phase) signal &lt;em&gt;u(t)&lt;/em&gt; by just multiplying &lt;em&gt;m(t)&lt;/em&gt; by &lt;em&gt;x(t)&lt;/em&gt;. We’re gonna call &lt;em&gt;u(t)&lt;/em&gt; the modulated signal.&lt;/p&gt;

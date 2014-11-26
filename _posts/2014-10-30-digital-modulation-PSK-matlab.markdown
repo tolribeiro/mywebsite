@@ -46,7 +46,7 @@ grid on;
 Now we can see the carrier *x(t)* we're gonna use to modulate our message *m(t)*:
 
 <div style="text-align:center" markdown="1">
-![Carrier Signal](http://tolribeiro.github.io/mywebsite/downloads/carrier.jpg "Carrier x(t)")
+![Carrier Signal](http://tolribeiro.github.io/mywebsite/downloads/carrier.png "Carrier x(t)")
 </div>
 
 Finally, we can plot the modulated (in phase) signal *u(t)* by just multiplying *m(t)* by *x(t)*. We're gonna call *u(t)* the modulated signal.
