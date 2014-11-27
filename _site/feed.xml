@@ -6,8 +6,8 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Nov 2014 17:36:44 -0300</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2014 17:36:44 -0300</lastBuildDate>
+    <pubDate>Wed, 26 Nov 2014 17:40:29 -0300</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2014 17:40:29 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -68,7 +68,7 @@
   &lt;p&gt;&lt;img src=&quot;http://tolribeiro.github.io/mywebsite/downloads/modulated.png&quot; alt=&quot;Modulated Signal&quot; title=&quot;PSK Modulated Signal u(t)&quot; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Finally, our message is modulated in PSK, once the phase of the signal does not change while &lt;em&gt;m(t)&lt;/em&gt; is equal to &lt;em&gt;1&lt;/em&gt;, being reversed (changing by 180 degrees) when it goes to &lt;em&gt;0&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, our message is modulated in &lt;strong&gt;PSK&lt;/strong&gt;, once the phase of the signal does not change while &lt;em&gt;m(t)&lt;/em&gt; is equal to &lt;em&gt;1&lt;/em&gt;, being reversed (changing by 180 degrees) when it goes to &lt;em&gt;0&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Oct 2014 18:53:05 -0300</pubDate>
         <link>http://tolribeiro.github.io/mywebsite/jekyll/update/2014/10/30/digital-modulation-PSK-matlab.html</link>

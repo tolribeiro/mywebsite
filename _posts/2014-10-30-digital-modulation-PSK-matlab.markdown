@@ -67,4 +67,4 @@ Which we can see as:
 ![Modulated Signal](http://tolribeiro.github.io/mywebsite/downloads/modulated.png "PSK Modulated Signal u(t)")
 </div>
 
-Finally, our message is modulated in PSK, once the phase of the signal does not change while *m(t)* is equal to *1*, being reversed (changing by 180 degrees) when it goes to *0*.
+Finally, our message is modulated in **PSK**, once the phase of the signal does not change while *m(t)* is equal to *1*, being reversed (changing by 180 degrees) when it goes to *0*.
