@@ -6,5 +6,5 @@ date:   2014-09-21 21:53:05
 categories: jekyll update
 ---
 
-
+A couple of years ago, in my first years in college, I had a website just like this one.
 
