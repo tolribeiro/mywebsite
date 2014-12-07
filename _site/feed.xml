@@ -6,15 +6,15 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Nov 2014 17:40:29 -0300</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2014 17:40:29 -0300</lastBuildDate>
+    <pubDate>Thu, 04 Dec 2014 11:26:24 -0300</pubDate>
+    <lastBuildDate>Thu, 04 Dec 2014 11:26:24 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Digital Modulation: using PSK as example on MATLAB.</title>
         <description>&lt;p&gt;This semester I had some exposure to digital modulation and learned some techniques applied to the studies of Communications Systems, which we’ll put into practice by using the powerful software MATLAB.&lt;/p&gt;
 
-&lt;p&gt;For this tutorial, I’ll pick up the &lt;strong&gt;PSK&lt;/strong&gt; (Phase-Shift Keying). However, if you want and feel comfortable, you can also try it using &lt;em&gt;ASK&lt;/em&gt;, &lt;em&gt;FSK&lt;/em&gt; or &lt;em&gt;QAM&lt;/em&gt;, that along with PSK, form the group of main types of digital modulation widely used in a variety of modern systems, such as cellular networks and so on. &lt;/p&gt;
+&lt;p&gt;For this tutorial, I’ll pick up the &lt;strong&gt;PSK&lt;/strong&gt; (Phase-Shift Keying). It uses shifts in phase of a signal to represent data. However, if you want and feel comfortable, you can also try it using &lt;em&gt;ASK&lt;/em&gt;, &lt;em&gt;FSK&lt;/em&gt; or &lt;em&gt;QAM&lt;/em&gt;, that along with PSK, form the group of main types of digital modulation widely used in a variety of modern systems, such as cellular networks and so on. &lt;/p&gt;
 
 &lt;p&gt;First, let’s suppose we have a message &lt;em&gt;m(t)&lt;/em&gt;, which is a bit-stream signal, that we want to send through an analog channel. For this example, we consider the frequency of &lt;em&gt;m(t)&lt;/em&gt; as &lt;em&gt;2 Hz&lt;/em&gt;. Therefore, we have:&lt;/p&gt;
 
@@ -22,7 +22,7 @@
 &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;001&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;			&lt;span class=&quot;c&quot;&gt;% time definition&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;square&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;          &lt;span class=&quot;c&quot;&gt;% message &lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;subplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;                      &lt;span class=&quot;c&quot;&gt;% plotting m(t)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;                     &lt;span class=&quot;c&quot;&gt;% plotting m(t)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;xlabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Time&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;ylabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Amplitude&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Message Signal m(t)&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
@@ -83,7 +83,8 @@
     
       <item>
         <title>Welcome to my website, powered by Jekyll</title>
-        <description>
+        <description>&lt;p&gt;A couple of years ago, in my first years in college, I had a website just like this one.&lt;/p&gt;
+
 </description>
         <pubDate>Sun, 21 Sep 2014 18:53:05 -0300</pubDate>
         <link>http://tolribeiro.github.io/mywebsite/jekyll/update/2014/09/21/first-post.html</link>
