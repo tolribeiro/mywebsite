@@ -52,7 +52,7 @@ Now we can see the carrier *x(t)* we're gonna use to modulate our message *m(t)*
 Finally, we can plot the modulated (in phase) signal *u(t)* by just multiplying *m(t)* by *x(t)*. We're gonna call *u(t)* the modulated signal.
 
 {% highlight matlab %}
-v = x.*u;                     % Carrier multiplied by message
+v = x.*u;                      % Carrier multiplied by message
 subplot(3,1,3);
 plot(t, v);                    % Plotting u(t), modulated signal
 xlabel('Time');
