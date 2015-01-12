@@ -10,7 +10,7 @@ A couple of years ago, in my first years in college, I had a website just like t
 
 #Migrating from Wordpress
 
-Although I was very used to the way Wordpress works, I always felt like it was too much for what I wanted. I needed something faster and straightforward that would help me to create and maintain content as easily as opening my favorite editor and typing my ideas, just like we do while we have that idea in the middle of the night and we want to code it to see if it actually works. Well...I found out about <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>. and that's exactly what I was looking for.
+Although I was very used to the way Wordpress works, I always felt like it was too much for what I wanted. I needed something faster and straightforward that would help me to create and maintain content as easily as opening my favorite editor and typing my ideas, just like we do when we have that idea and we want to write it down. Fast. Well...I found out about <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>. and that's exactly what I was looking for.
 
-From now on, I even feel like I should share more, write more...do more. Join me throughout the process and feel free to contact me. :)
+So now, I even feel like I should share more, write more...do more. Join me throughout the process and feel free to contact me. :)
 
