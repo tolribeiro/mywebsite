@@ -6,9 +6,33 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Dec 2014 11:26:24 -0300</pubDate>
-    <lastBuildDate>Thu, 04 Dec 2014 11:26:24 -0300</lastBuildDate>
+    <pubDate>Mon, 12 Jan 2015 17:52:06 -0300</pubDate>
+    <lastBuildDate>Mon, 12 Jan 2015 17:52:06 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Simplified DES (SDES): an implementation in C.</title>
+        <description>&lt;p&gt;A few months ago, I went through a quite challenging experience as a student of an introdutory class on Criptography: I was required to give a presentation on &lt;strong&gt;DES&lt;/strong&gt; algorithm.&lt;/p&gt;
+
+&lt;p&gt;After going through the titles of the reliable books on the subject, I decided to read &lt;em&gt;Criptography and Network Security&lt;/em&gt; by William Stallings and one of the first sentences on that page got my attention: &lt;em&gt;”[…] the structure of DES and most symmetric ciphers is very complex and cannot be explained as easily […]”.&lt;/em&gt; &lt;/p&gt;
+
+&lt;p&gt;Therefore, in the next paragraph, it said that studying a simplified version (SDES) would enhance understanding of DES, and I can guarantee that it actually does. After a couple of hours struggling in the beginning, I got the idea behind one of the most important symmetric ciphers algorithms.    &lt;/p&gt;
+
+&lt;h1 id=&quot;the-implementation-in-c&quot;&gt;The implementation in C.&lt;/h1&gt;
+
+&lt;p&gt;Throughout the process of creating the presentation (which I did explaining the DES with a block size of 64 bits), I realized that the SDES would be better to make people understand the step-by-step bits manipulation involved, as well as it would help me to check my answers on paper was right. I didn’t find anything useful and “simple” enough, so I decided to do it myself.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 12 Jan 2015 00:27:00 -0300</pubDate>
+        <link>http://tolribeiro.github.io/mywebsite/jekyll/update/2015/01/12/SDES-implementation-in-C.html</link>
+        <guid isPermaLink="true">http://tolribeiro.github.io/mywebsite/jekyll/update/2015/01/12/SDES-implementation-in-C.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Digital Modulation: using PSK as example on MATLAB.</title>
