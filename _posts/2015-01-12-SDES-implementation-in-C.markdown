@@ -9,7 +9,7 @@ A few months ago, I went through a quite challenging experience as a student of 
 
 After going throught the titles of the reliable books on the subject, I decided to read *Criptography and Network Security* by William Stallings and one of the first sentences on that page got my attention: *"[...] the structure of DES and most symmetric ciphers is very complex and cannot be explained as easily [...]".* 
 
-Therefore, in the next paragraph, it said that studying a simplified version (SDES) would enhance understanding of DES, and I guarantee that it actually is. After a couple of hours struggling in the beginning, I got the idea behind one of the most important symmetric ciphers algorithms.    
+Therefore, in the next paragraph, it said that studying a simplified version (SDES) would enhance understanding of DES, and I can guarantee that it actually does. After a couple of hours struggling in the beginning, I got the idea behind one of the most important symmetric ciphers algorithms.    
 
 #The implementation in C.
 
