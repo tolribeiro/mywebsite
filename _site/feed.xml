@@ -6,8 +6,8 @@
 </description>
     <link>http://tolribeiro.github.io/mywebsite/</link>
     <atom:link href="http://tolribeiro.github.io/mywebsite/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 12 Jan 2015 17:52:06 -0300</pubDate>
-    <lastBuildDate>Mon, 12 Jan 2015 17:52:06 -0300</lastBuildDate>
+    <pubDate>Mon, 12 Jan 2015 18:24:18 -0300</pubDate>
+    <lastBuildDate>Mon, 12 Jan 2015 18:24:18 -0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -18,9 +18,11 @@
 
 &lt;p&gt;Therefore, in the next paragraph, it said that studying a simplified version (SDES) would enhance understanding of DES, and I can guarantee that it actually does. After a couple of hours struggling in the beginning, I got the idea behind one of the most important symmetric ciphers algorithms.    &lt;/p&gt;
 
-&lt;h1 id=&quot;the-implementation-in-c&quot;&gt;The implementation in C.&lt;/h1&gt;
+&lt;h1 id=&quot;the-implementation-in-c&quot;&gt;The implementation in C&lt;/h1&gt;
 
-&lt;p&gt;Throughout the process of creating the presentation (which I did explaining the DES with a block size of 64 bits), I realized that the SDES would be better to make people understand the step-by-step bits manipulation involved, as well as it would help me to check my answers on paper was right. I didn’t find anything useful and “simple” enough, so I decided to do it myself.&lt;/p&gt;
+&lt;p&gt;Throughout the process of creating the presentation (which I did explaining the DES with a block size of 64 bits), I realized that the SDES would be better to make people understand the step-by-step bits manipulation involved, as well as it would help me to check if my answers on paper were right. As I didn’t find anything useful and “simple” enough for a demonstration,  I decided to do it myself.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-encryption-step&quot;&gt;The encryption step&lt;/h1&gt;
 
 </description>
         <pubDate>Mon, 12 Jan 2015 00:27:00 -0300</pubDate>
@@ -78,7 +80,7 @@
 
 &lt;p&gt;Finally, we can plot the modulated (in phase) signal &lt;em&gt;u(t)&lt;/em&gt; by just multiplying &lt;em&gt;m(t)&lt;/em&gt; by &lt;em&gt;x(t)&lt;/em&gt;. We’re gonna call &lt;em&gt;u(t)&lt;/em&gt; the modulated signal.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;                     &lt;span class=&quot;c&quot;&gt;% Carrier multiplied by message&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-matlab&quot; data-lang=&quot;matlab&quot;&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;                      &lt;span class=&quot;c&quot;&gt;% Carrier multiplied by message&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;subplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;                    &lt;span class=&quot;c&quot;&gt;% Plotting u(t), modulated signal&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;xlabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Time&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
@@ -106,8 +108,14 @@
       </item>
     
       <item>
-        <title>Welcome to my website, powered by Jekyll</title>
-        <description>&lt;p&gt;A couple of years ago, in my first years in college, I had a website just like this one.&lt;/p&gt;
+        <title>Welcome to my website, powered by Jekyll.</title>
+        <description>&lt;p&gt;A couple of years ago, in my first years in college, I had a website just like this one where I would post some information about the creative process of a project that I was working on or even some stuff I thought it would be useful to other people.&lt;/p&gt;
+
+&lt;h1 id=&quot;migrating-from-wordpress&quot;&gt;Migrating from Wordpress&lt;/h1&gt;
+
+&lt;p&gt;Although I was very used to the way Wordpress works, I always felt like it was too much for what I wanted. I needed something faster and straightforward that would help me to create and maintain content as easily as opening my favorite editor and typing my ideas, just like we do while we have that idea in the middle of the night and we want to code it to see if it actually works. Well…I found out about &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;. and that’s exactly what I was looking for.&lt;/p&gt;
+
+&lt;p&gt;From now on, I even feel like I should share more, write more…do more. Join me throughout the process and feel free to contact me. :)&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 21 Sep 2014 18:53:05 -0300</pubDate>

@@ -116,7 +116,7 @@
 
 <p>Finally, we can plot the modulated (in phase) signal <em>u(t)</em> by just multiplying <em>m(t)</em> by <em>x(t)</em>. We’re gonna call <em>u(t)</em> the modulated signal.</p>
 
-<div class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">v</span> <span class="p">=</span> <span class="n">x</span><span class="o">.*</span><span class="n">u</span><span class="p">;</span>                     <span class="c">% Carrier multiplied by message</span>
+<div class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="n">v</span> <span class="p">=</span> <span class="n">x</span><span class="o">.*</span><span class="n">u</span><span class="p">;</span>                      <span class="c">% Carrier multiplied by message</span>
 <span class="n">subplot</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">);</span>
 <span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">v</span><span class="p">);</span>                    <span class="c">% Plotting u(t), modulated signal</span>
 <span class="n">xlabel</span><span class="p">(</span><span class="s">&#39;Time&#39;</span><span class="p">);</span>

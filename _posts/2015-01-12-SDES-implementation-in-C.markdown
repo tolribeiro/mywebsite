@@ -11,9 +11,13 @@ After going through the titles of the reliable books on the subject, I decided t
 
 Therefore, in the next paragraph, it said that studying a simplified version (SDES) would enhance understanding of DES, and I can guarantee that it actually does. After a couple of hours struggling in the beginning, I got the idea behind one of the most important symmetric ciphers algorithms.    
 
-#The implementation in C.
+#The implementation in C
 
-Throughout the process of creating the presentation (which I did explaining the DES with a block size of 64 bits), I realized that the SDES would be better to make people understand the step-by-step bits manipulation involved, as well as it would help me to check my answers on paper was right. I didn't find anything useful and "simple" enough, so I decided to do it myself.
+Throughout the process of creating the presentation (which I did explaining the DES with a block size of 64 bits), I realized that the SDES would be better to make people understand the step-by-step bits manipulation involved, as well as it would help me to check if my answers on paper were right. As I didn't find anything useful and "simple" enough for a demonstration,  I decided to do it myself.
+
+#The encryption step
+
+
 
 
 
