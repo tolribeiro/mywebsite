@@ -17,7 +17,9 @@ Throughout the process of creating the presentation (which I did explaining the 
 
 #The encryption step
 
-
+<div style="text-align:center" markdown="1">
+![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/encryption.png "Simplified DES encryption scheme.")
+</div>
 
 
 
