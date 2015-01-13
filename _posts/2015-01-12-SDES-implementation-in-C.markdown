@@ -62,6 +62,6 @@ You can download the full implementation <a href="http://tolribeiro.github.io/my
 
 #Final Considerations
 
-This algorithm was developed by Professor Edward Schaefer of Santa Clara University. I recommend that you read the appendix *Criptography and Network Security*, explaining the algorithm in details (<a href="http://mercury.webster.edu/aleshunas/COSC%205130/G-SDES.pdf" target="_blank">here</a>). 
+This algorithm was developed by Professor Edward Schaefer of Santa Clara University. I recommend that you read the appendix from *Criptography and Network Security*, explaining the algorithm in details (<a href="http://mercury.webster.edu/aleshunas/COSC%205130/G-SDES.pdf" target="_blank">here</a>). 
 
 Furthermore, take a look at this PDF document (<a href="http://ict.siit.tu.ac.th/~steven/css322y11s2/unprotected/CSS322Y11S2H01-DES-Examples.pdf" target="_blank">here</a>), written by Professor Steven Gordon of Sirindhorn International Institute of Technology, which contains some examples that you may want to verify with my implementation.
