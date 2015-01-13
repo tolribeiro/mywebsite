@@ -77,20 +77,64 @@
   <article class="post-content">
     <p>A few months ago, I went through a quite challenging experience as a student of an introdutory class on Criptography: I was required to give a presentation on <strong>DES</strong> algorithm.</p>
 
-<p>After going through the titles of the reliable books on the subject, I decided to read <em>Criptography and Network Security</em> by William Stallings and one of the first sentences on that page got my attention: <em>”[…] the structure of DES and most symmetric ciphers is very complex and cannot be explained as easily […]”.</em> </p>
+<p>After going through the titles of the reliable books on the subject, I decided to read <em>Criptography and Network Security</em> by William Stallings and one of the first sentences on that page got my attention: </p>
 
-<p>Therefore, in the next paragraph, it said that studying a simplified version (SDES) would enhance understanding of DES, and I can guarantee that it actually does. After a couple of hours struggling in the beginning, I got the idea behind one of the most important symmetric ciphers algorithms.    </p>
+<blockquote>
+  <p>”[…] the structure of DES and most symmetric ciphers is very complex and cannot be explained as easily […]”.</p>
+</blockquote>
 
-<h1 id="the-implementation-in-c">The implementation in C</h1>
+<p>Therefore, in the next paragraph, it said that studying a simplified version (SDES) would enhance the understanding of DES, and I can guarantee that it actually does. </p>
 
-<p>Throughout the process of creating the presentation (which I did explaining the DES with a block size of 64 bits), I realized that the SDES would be better to make people understand the step-by-step bits manipulation involved, as well as it would help me to check if my answers on paper were right. As I didn’t find anything useful and “simple” enough for a demonstration,  I decided to do it myself.</p>
+<p>After a couple of hours struggling in the beginning, I finally got the idea behind one of the most important symmetric ciphers algorithms.     </p>
 
-<h1 id="the-encryption-step">The encryption step</h1>
+<h1 id="the-encryption-process">The encryption process</h1>
+
+<p>The simplified DES operates on a 8-bit block of <em>plaintext</em> to generate a 8-bit block of <em>ciphertext</em>. These types of algorithms are called <strong>block ciphers</strong>. It also uses a 10-bit key, generating two subkeys in the process, used as input for the most delicate part of the algorithm, the <em>fk function</em>. <br /></p>
+
+<p>The scheme below shows how the plaintext (input) is manipulated to generate the ciphertext (output).</p>
 
 <div style="text-align:center">
   <p><img src="http://tolribeiro.github.io/mywebsite/downloads/encryption.png" alt="Message Signal" title="Simplified DES encryption scheme." /></p>
 </div>
 
+<p>After all these steps, the <em>output</em> is the encrypted <em>input</em>. </p>
+
+<h1 id="the-keys-generation-step">The keys generation step</h1>
+
+<p>This step only involves single permutations and switching. I strongly believe that if you take a look at the implementation you won’t have any problems understanding it.</p>
+
+<h1 id="the-decryption-process">The decryption process</h1>
+
+<p>DES is a <strong>symmetric cipher</strong>, which means that it uses the same key to <em>encrypt</em> and <em>decrypt</em> the data. Since my idea was only show the step-by-step encryption process, I decided not to write the function to decrypt it. </p>
+
+<p>However, you might not have any problems doing it either, because the only thing you’ll need to do is the encryption process backwards, i.e.: <em>output -&gt; IP(output) -&gt; fk(output, k2) -&gt; SW(output) -&gt; fk(output, k1) -&gt; IP Inverse (output) -&gt; input</em>.</p>
+
+<h1 id="the-implementation-in-c">The implementation in C</h1>
+
+<p>Based on the scheme shown above, I implemented the algorithm and came up with the <em>encrypt</em> function, that summarizes the encryption process of Simplified DES.  </p>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="c1">// ------------------------------------------------</span>
+<span class="c1">// ---            Encrypt Function   		---</span>
+<span class="c1">// ------------------------------------------------</span>
+
+<span class="kt">void</span> <span class="nf">encrypt</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">input</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">key</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="n">initial_permutation</span><span class="p">(</span><span class="n">input</span><span class="p">);</span> <span class="c1">// IP</span>
+	<span class="n">fk</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">k1</span><span class="p">);</span> <span class="c1">// fk with subkey k1</span>
+	<span class="n">switch_halves</span><span class="p">(</span><span class="n">output</span><span class="p">);</span>	<span class="c1">// SW</span>
+	<span class="n">fk</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">k2</span><span class="p">);</span> <span class="c1">// fk with subkey k2</span>
+	<span class="n">initial_permutation_inverse</span><span class="p">(</span><span class="n">output</span><span class="p">);</span> <span class="c1">// IP Inverse</span>
+<span class="p">}</span></code></pre></div>
+
+<p>To make it easier to understand, I tried to stick to the names of the variables. The variables <em>input</em>, <em>key</em> (also the subkeys <em>k1</em> and <em>k2</em>) and <em>output</em> literally mean the same as on the scheme.</p>
+
+<p>You can download the full implementation <a href="http://tolribeiro.github.io/mywebsite/downloads/sdes.c" target="_blank">here<a>.</a></a></p>
+
+<h1 id="final-considerations">Final Considerations</h1>
+
+<p>This algorithm was developed by Professor Edward Schaefer of Santa Clara University. I recommend that you read the appendix <em>Criptography and Network Security</em>, explaining the algorithm in details (<a href="http://mercury.webster.edu/aleshunas/COSC%205130/G-SDES.pdf" target="_blank">here</a>). </p>
+
+<p>Furthermore, take a look at this PDF document (<a href="http://ict.siit.tu.ac.th/~steven/css322y11s2/unprotected/CSS322Y11S2H01-DES-Examples.pdf" target="_blank">here</a>), written by Professor Steven Gordon of Sirindhorn International Institute of Technology, which contains some examples that you may want to verify with my implementation.</p>
 
   </article>
 
