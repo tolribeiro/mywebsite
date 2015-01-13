@@ -3,7 +3,8 @@
 |                                                                              |
 |  * A simplified version of the famous algorithm DES.                         |                                                
 |  * Author: Thiago Ribeiro		                                               |
-|  * January 2014						                                       |
+|  * January 2014															   |
+|								  Version 0.1    							   |
 ==============================================================================*/
 
 #include <stdio.h>
