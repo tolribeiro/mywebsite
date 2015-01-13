@@ -29,7 +29,7 @@ After all these steps, the *output* is the encrypted *input*.
 
 #The keys generation step
 
-This step only involves single permutations and switching. I strongly believe that if you take a look at the implementation you won't have any problems understanding it.
+This step only involves single permutations and shifts. I strongly believe that if you take a look at the implementation you won't have any problems understanding it.
 
 #The decryption process
 
