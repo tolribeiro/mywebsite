@@ -10,13 +10,15 @@
 #include <string.h>
 #include <stdlib.h>
 
-char output[9];
-char key_tmp[11];
-char k1[9];
-char k2[9];
-char l[5];
+// Global variables
+
+char output[9];	// ciphertext
+char key_tmp[11];	// used as intermediate  
+char k1[9];		// subkey k1
+char k2[9];		// subkey k2
+char l[5];		
 char r[5];
-char binary_tmp[3];
+char binary_tmp[3]; 
 char s0_box[4][4];
 char s1_box[4][4];
 
