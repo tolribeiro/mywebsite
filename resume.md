@@ -4,6 +4,6 @@ title: Resume
 permalink: /resume/
 ---
 
-You may download my resume clicking <a href="http://tolribeiro.github.io/mywebsite/downloads/TR-Resume-English.pdf" target="_blank">here</a>. 
+You may download my resume clicking <a href="http://toribeiro.com/downloads/TR-Resume-English.pdf" target="_blank">here</a>. 
 
 Or you can email me at anytime, so we can talk further.
