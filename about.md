@@ -5,4 +5,4 @@ permalink: /about/
 ---
 ![Picture Chicago](http://tolribeiro.github.io/mywebsite/downloads/about.jpg "Me")Hi, I'm Thiago. :)
 
-I'm currently studying <i>Computer Engineering</i> at University of Pernambuco (<a href="http://www.upe.br" target="_blank">UPE</a>). Sharing good content on the web is one of my passions, as well as playing Rock and Roll with my band called <a href="http://www.facebook.com/nervaloficial" target="_blank">Nerval</a> in my spare time.
+I'm currently studying <i>Computer Engineering</i> at University of Pernambuco (<a href="http://www.upe.br" target="_blank">UPE</a>), Brazil. Sharing good content on the web is one of my passions, as well as playing Rock and Roll with my band called <a href="http://www.facebook.com/nervaloficial" target="_blank">Nerval</a> in my spare time.
