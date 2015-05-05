@@ -29,7 +29,7 @@ Thus, I thought that it would be really nice to have an application where I coul
 Although I think it would be better to work on all the single bugs and putting the *almost* perfect solution, I decided to put online a very first version (0.1) so as other people use it, we can keep improving it together. I also record a video for those who are interested in using it and see how it works. (Link is <a href="http://tolribeiro.github.io/cap-charge/" target="_blank">here</a>).
 
 <div style="text-align:center" markdown="1">
-![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/video-cap.png<a/> "Demonstration video of Cap-Charge application.")
+![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/video-cap.png "Demonstration video of Cap-Charge.")
 </div>
 
 Video link <a href="https://www.youtube.com/watch?v=3nwURuvDR7w" target="_blank">here</a>.
