@@ -5,7 +5,7 @@ description: "A very simple app to help couting hours at work"
 date:   2015-09-27 20:13:05
 categories: ios app hours work control
 ---
-My very fist iOS App: controlling work hours   In the month of May this year, I decided to dive into the world of mobile development. For that reason,  I accepted the challenge of joining a company specialized in a field where I would learn, practice daily, and immerse myself in the culture of developing applications that run in smartphones--specifically iPhones. 
+In the month of May this year, I decided to dive into the world of mobile development. For that reason,  I accepted the challenge of joining a company specialized in a field where I would learn, practice daily, and immerse myself in the culture of developing applications that run in smartphones--specifically iPhones. 
 
 Consequently, in the initial days of my internship, I was told that I should fill out a spreadsheet (on paper, it couldn't be digital) stating: the arrival time, if I had stopped to eat during the day, and my time of departure. 
 
