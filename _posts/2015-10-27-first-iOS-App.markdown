@@ -21,30 +21,7 @@ In the empty forms, I manually enter the times (24-hour style in Brazil) during 
 ![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/minhasHorasData.jpg "App showing the elapsed time calculated.")
 </div>
 
-As I kept researching about how to calculate elapsed time, I learned more about NSDate and NSTimeInterval, which I believe is a more appropriate way to implement such apps. Therefore, at the time, I designed the algorithm "by hand", by getting the interval between the integers and returning the elapsed time. Thus, in Objective-C, I had:
-
-{% highlight objective-c %}
--(void)calculaHorasGeral:(NSInteger)horaInicio:(NSInteger)minutoInicio:(NSInteger)horaFim:(NSInteger)minutoFim {
-    
-    NSInteger count = 0, total = 0, contador = 0;
-    
-    if (horaInicio < horaFim) {
-        count = 60 - minutoInicio;
-        horaInicio++;
-        while (horaInicio < horaFim) {
-            contador++;
-            horaInicio++;
-        }
-        count = count + (contador * 60);
-        total = count + minutoFim;
-        horasTrabalhadasInt = total/60;
-        minutosTrabalhadosInt = total % 60;
-    } else if (horaInicio == horaFim) {
-        if (minutoFim > minutoInicio)
-            minutosTrabalhadosInt = minutoFim - minutoInicio;
-    }
-}
-{% endhighlight %}
+As I kept researching about how to calculate elapsed time, I learned more about NSDate and NSTimeInterval, which I believe is a more appropriate way to implement such apps. Therefore, at the time, I designed the algorithm "by hand", by getting the interval between the integers and returning the elapsed time. 
 
 After a couple of months, I considered a lot of other features that I could implement to make my app much more robust, such as: storing the data, enabling the user to use the current time from the phone to mark the time, and so on. 
 
