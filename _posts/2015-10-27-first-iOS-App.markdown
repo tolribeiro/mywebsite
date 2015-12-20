@@ -13,13 +13,13 @@ Even though I had heard there was a spreadsheet set up that could do the job, I 
 
 <div style="text-align:center" markdown="1">
 <!--![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/minhasHorasNoData.jpg "First screen, to fill out with the times.")-->
-<img src="http://tolribeiro.github.io/mywebsite/downloads/minhasHorasNoData.jpg" width="220" height="430" />
+<img src="http://tolribeiro.github.io/mywebsite/downloads/minhasHorasNoData.jpg" width="360" height="640" />
 </div>
 
 In the empty forms, I manually enter the times (24-hour style in Brazil) during the day and press calculate to see how many hours I have worked until the break, the duration of my break, the hours I have worked after my break, and the total, as you can see below:
 
 <div style="text-align:center" markdown="1">
-<img src="http://tolribeiro.github.io/mywebsite/downloads/minhasHorasData.jpg" width="220" height="430" />
+<img src="http://tolribeiro.github.io/mywebsite/downloads/minhasHorasData.jpg" width="360" height="640" />
 <!--![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/minhasHorasData.jpg "App showing the elapsed time calculated.")-->
 </div>
 
