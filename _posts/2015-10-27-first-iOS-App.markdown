@@ -11,14 +11,16 @@ Consequently, in the initial days of my internship, I was told that I should fil
 
 Even though I had heard there was a spreadsheet set up that could do the job, I saw in that an opportunity to develop my skills in iOS--it was then that I began to create an app to do all the math for me. As a result, my only  task would be to log my work hours on the sheet at the end of the workday. 
 
-<div style="text-align:center" markdown="1" width="220" height="430">
-![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/minhasHorasNoData.jpg "First screen, to fill out with the times.")
+<div style="text-align:center" markdown="1">
+<!--![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/minhasHorasNoData.jpg "First screen, to fill out with the times.")-->
+<img src="http://tolribeiro.github.io/mywebsite/downloads/minhasHorasNoData.jpg" width="220" height="430" />
 </div>
 
 In the empty forms, I manually enter the times (24-hour style in Brazil) during the day and press calculate to see how many hours I have worked until the break, the duration of my break, the hours I have worked after my break, and the total, as you can see below:
 
-<div style="text-align:center" markdown="1" width="220" height="430">
-![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/minhasHorasData.jpg "App showing the elapsed time calculated.")
+<div style="text-align:center" markdown="1">
+<img src="http://tolribeiro.github.io/mywebsite/downloads/minhasHorasData.jpg" width="220" height="430" />
+<!--![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/minhasHorasData.jpg "App showing the elapsed time calculated.")-->
 </div>
 
 As I kept researching about how to calculate elapsed time, I learned more about NSDate and NSTimeInterval, which I believe is a more appropriate way to implement such apps. Therefore, at the time, I designed the algorithm "by hand", by getting the interval between the integers and returning the elapsed time. 
