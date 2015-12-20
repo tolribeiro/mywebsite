@@ -11,9 +11,10 @@ Recently, I faced the task of analyzing the graph of a capacitor in a simple cir
 The result of this configuration is pretty straightforward: my capacitor will get charged with a certain value of voltage from the source (*almost* 100%), respecting the exponential function described below:
 
 <div style="text-align:center" markdown="1">
-![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/charge.png "Function that describes capacitor charge.")
+<!-- ![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/charge.png "Function that describes capacitor charge.") -->
+<img src="./static/img/charge.png"/>
 </div>
-
+<br />
 We can easily see that it corresponds to a *time* versus *voltage* (exponential) function, where the *RC* element is what we call **time constant**. If you multiply the value of your capacitance with the value of the resistance that you have configured in your circuit, the result will represent how long it took for your capacitor to get charged with approximately 63% of the voltage from the source.   
 
 As an example, let's suppose we have a 12V source powering a 1000uF capacitor connected to a 51k resistor: it would take 51 seconds for the capacitor to have stored approximately 7.5V between its terminals.

@@ -26,7 +26,8 @@ grid on;
 After running this, you should see this image, which represents the message we wanna send: 
 
 <div style="text-align:center" markdown="1">
-![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/message.png "Message Signal m(t)")
+<!-- ![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/message.png "Message Signal m(t)") -->
+<img src="./static/img/message.png"/>
 </div>
 
 Now we can write the definition for the carrier *x(t)*, a *sin()* function with frequency of *10 Hz* and amplitude *A* of *5*.
@@ -46,7 +47,8 @@ grid on;
 Now we can see the carrier *x(t)* we're gonna use to modulate our message *m(t)*:
 
 <div style="text-align:center" markdown="1">
-![Carrier Signal](http://tolribeiro.github.io/mywebsite/downloads/carrier.png "Carrier x(t)")
+<!-- ![Carrier Signal](http://tolribeiro.github.io/mywebsite/downloads/carrier.png "Carrier x(t)") -->
+<img src="./static/img/carrier.png"/>
 </div>
 
 Finally, we can plot the modulated (in phase) signal *u(t)* by just multiplying *m(t)* by *x(t)*. We're gonna call *u(t)* the modulated signal.
@@ -64,7 +66,8 @@ grid on;
 Which we can see as:
 
 <div style="text-align:center" markdown="1">
-![Modulated Signal](http://tolribeiro.github.io/mywebsite/downloads/modulated.png "PSK Modulated Signal u(t)")
+<!-- ![Modulated Signal](http://tolribeiro.github.io/mywebsite/downloads/modulated.png "PSK Modulated Signal u(t)") -->
+<img src="./static/img/modulated.png"/>
 </div>
 
 Finally, our message is modulated in **PSK**, once the phase of the signal does not change while *m(t)* is equal to *1*, being reversed (changing by 180 degrees) when it goes to *0*.

@@ -22,9 +22,10 @@ The simplified DES operates on a 8-bit block of *plaintext* to generate a 8-bit 
 The scheme below shows how the plaintext (input) is manipulated to generate the ciphertext (output).
 
 <div style="text-align:center" markdown="1">
-![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/encryption.png "Simplified DES encryption scheme.")
+<!-- ![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/encryption.png "Simplified DES encryption scheme.") -->
+<img src="./static/img/encryption.png" width="229" height="762"/>
 </div>
-
+<br/>
 After all these steps, the *output* is the encrypted *input*. 
 
 #The keys generation step
@@ -43,7 +44,7 @@ Based on the scheme shown above, I implemented the algorithm and came up with th
 
 {% highlight C %}
 // ------------------------------------------------
-// ---            Encrypt Function   		---
+// ---            Encrypt Function   			---
 // ------------------------------------------------
 
 void encrypt(char *input, char *key)
