@@ -9,7 +9,7 @@ In the month of May this year, I decided to dive into the world of mobile develo
 
 Consequently, in the initial days of my internship, I was told that I should fill out a spreadsheet (on paper, it couldn't be digital) stating: the arrival time, if I had stopped to eat during the day, and my time of departure. 
 
-Even though I had heard there was a spreadsheet set up that could do the job, I saw in that an opportunity to develop my skills in iOS--it was then that I began to create an app to do all the math for me. 
+Even though I had heard there was a spreadsheet set up that could do the job, I saw in that an opportunity to develop my skills in iOS--it was then that I began to create an app to do all the math for me. As a result, my only task would be to log my work hours on the sheet at the end of the workday. 
 
 <div style="text-align:center" markdown="1">
 ![Message Signal](http://tolribeiro.github.io/mywebsite/downloads/minhasHorasNoData.jpg "First screen, to fill out with the times.")
